@@ -1,0 +1,98 @@
+ :root {
+   --color-cruk-logo-light-blue: #00b6ed;
+   --color-cruk-logo-pink: #e6007e;
+   --color-cruk-logo-yellow: #fbba00;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.btn-primary {
+    background-color: var(--color-cruk-logo-light-blue);
+    border-color: var(--color-cruk-logo-light-blue);
+}
+.btn-primary:hover {
+    color: #000;
+    background-color: var(--color-cruk-logo-yellow);
+    border-color: var(--color-cruk-logo-yellow);
+}
+
+#navBarPlaceholder > .navbar
+{
+  background-color: var(--color-cruk-logo-light-blue);
+}
+
+#footerPlaceholder > footer
+{
+  background-color: var(--color-cruk-logo-pink);
+  color: black;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+ul.terms li a {
+    color: black!important;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+.carousel-item {
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-caption p {
+  font-size: 60px;
+  font-weight:500;
+  color:black
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-logo img {
+  width: 100%;
+  height: 150px;
+}
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border: 7px solid #fff;
+}
