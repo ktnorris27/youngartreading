@@ -1,6 +1,8 @@
 $(function() {
   $("#navBarPlaceholder").load("./sections/navbar.html");
   $("#footerPlaceholder").load("./sections/footer.html");
+
+
 });
 
 function onHomeClick() {

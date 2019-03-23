@@ -1,7 +1,12 @@
 $(function() {
   $("#navBarPlaceholder").load("../sections/navbar.html");
   $("#pageHeaderPlaceholder").load("../sections/pageHeader.html");
+  $("#pageBottomPlaceholder").load("../sections/pageBottom.html");
   $("#footerPlaceholder").load("../sections/footer.html");
+
+  $('[data-toggle="popover"]').popover()
+
+
 });
 
 function onHomeClick() {

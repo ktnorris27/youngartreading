@@ -11,6 +11,7 @@
   <link href="../vendor/fontawesome/css/all.min.css" rel="stylesheet">  <link href="../css/site.css" rel="stylesheet">
   <link href="../css/site.css" rel="stylesheet">
   <link rel="shortcut icon" href="../favicon.ico" />
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 </head>
 
 <body>
@@ -26,11 +27,12 @@
     <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <div class="row">
       <div class="col-lg-8 mb-4">
-        <h3>Send us a Message</h3>
+        <h5>Please send us a message using the form below or email
+        us at <a href="mailto:youngartreading@gmail.com">youngartreading@gmail.com</a></h5>
         <!-- <form name="sentMessage" id="contactForm" novalidate> -->
         <!-- <form accept-charset="UTF-8" action="https://usebasin.com/f/671192e694f5" enctype="multipart/form-data" method="POST"> -->
         <form action="https://formspree.io/youngartreading@gmail.com" method="POST">
-          <div class="control-group form-group">
+          <div class="control-group form-group my-4">
             <div class="controls">
               <label>Full Name</label>
               <input type="text" class="form-control" id="name" name="fullname" required data-validation-required-message="Please enter your name.">
@@ -63,6 +65,8 @@
       </div>
 
     </div>
+
+    <div id="pageBottomPlaceholder"></div>
 
   </div>
 
