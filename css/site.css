@@ -83,10 +83,10 @@ ul.social-buttons li a {
   height: 300px;
 }
 
-.carousel-caption p {
+.carousel-caption {
   font-size: 60px;
-  font-weight:500;
-  color:black
+  font-weight: 700;
+  color: var(--color-cruk-logo-pink);
 }
 
 .carousel-control-prev-icon {
